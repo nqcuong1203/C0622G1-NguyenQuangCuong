@@ -1,7 +1,0 @@
-BEGIN
- INPUT Toán = 8
-       Lí = 7
-       Hóa = 6
-Average = (8+7+6)/3
-DISPLAY "Average"
-END

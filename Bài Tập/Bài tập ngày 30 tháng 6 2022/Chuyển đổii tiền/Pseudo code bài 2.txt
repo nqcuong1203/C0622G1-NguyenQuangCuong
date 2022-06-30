@@ -1,8 +1,0 @@
-BEGIN
- INPUT  Dollar is A
- INPUT  VND is B
- INPUT  $1 = 23000 is C
- IF A changer to B
- B = A.C
- DISPLAY "B"
-END
