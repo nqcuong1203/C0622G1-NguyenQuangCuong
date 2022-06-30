@@ -1,0 +1,17 @@
+BEGIN
+INPUT Diem
+IF Diem>=75
+   DISPLAY Loai A
+ELSE
+    IF Diem>=60
+    DISPLAY Loai B
+    ELSE
+        IF Diem>=45
+        DISPLAY Loai C
+        ELSE
+          IF Diem>=35
+          DISPLAY Loai D
+          ELSE Loai E
+END
+
+    
