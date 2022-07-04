@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="https://tokuda.vn/submit.php">
+<table class="haha">
+    <tbody>
+    <tr><th class="huhu" colspan="5">ĐĂNG KÝ HỌC VIÊN</th></tr>
+    <tr>
+        <td class="hichic">Họ và tên:</td>
+        <td colspan="3"><input type="text" name="yourname">
+        </td></tr>
+    <tr>
+        <td class="hichic">Ngày sinh</td>
+        <td><input type="date" name="date">
+    </tr>
+    <tr>
+        <td class="hichic">Giới tính</td>
+        <td><input type="radio" id="male"><label for="male">Nam</label>    <input type="radio" id="male"><label for="male">Nữ</label></td>
+    </tr>
+    <tr>
+        <td class="hichic">Địa chỉ</td>
+        <td><input class="tokuda" type="text" name="address"></td>
+    </tr>
+    <tr>
+        <td class="hichic"><label for="class">Lớp</label></td>
+        <td><select id="class" value="Chọn lớp" name="classlist">
+            <option value="chooseclass">Chọn lớp</option>
+            <option value="100">Lớp 100</option>
+            <option value="1000">Lớp 1000</option>
+            <option value="10000">Lớp 10000</option>
+    </tr>
+    <tr>
+        <td class="hichic"> Email:</td>
+        <td><input type="email" name="youremail"></td>
+    </tr>
+    <tr>
+        <td class="hichic">Điện thoại</td>
+        <td><label for="phone">
+            <input type="tel" id="phone" name="phone">
+        </label></td>
+    </tr>
+   <tr class="hihi">
+       <td><input type="submit" value="Đăng Ký"></td>
+       <td><input type="reset" value="Nhập lại"></td>
+   </tr> </tbody></table>
+</form>
+</body>
+<style>
+    .hihi {position: relative; left: 70px;}
+    .haha {background: #f7d9a0; }
+    .huhu {background: deepskyblue; color: #1a1ae7;;}
+    .hichic {color: blue;}
+    .tokuda {padding: 25px 3px;}
+</style>
+</html>
