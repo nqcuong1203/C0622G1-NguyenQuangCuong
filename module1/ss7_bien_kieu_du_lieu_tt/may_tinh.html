@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính</title>
+</head>
+<body>
+<input type="number" id="o1">
+<input type="number" id="o2">
+<button onclick="c();">Cộng</button>
+<button onclick="t();">Trừ</button>
+<button onclick="n();">Nhân</button>
+<button onclick="ch();">Chia</button>
+<div style="font-size: 20px;" id="display"></div>
+<script>
+    function c() {
+        let hang1 = parseFloat(document.getElementById("o1").value);
+        let hang2 = parseFloat(document.getElementById("o2").value);
+        let d = (hang1 + hang2);
+        document.getElementById("display").innerText = d.toFixed(1);
+    }
+    function t() {
+        let hang1 = parseFloat(document.getElementById("o1").value);
+        let hang2 = parseFloat(document.getElementById("o2").value);
+        let d = (hang1 - hang2);
+        document.getElementById("display").innerText = d.toFixed(1);
+    }
+    function n() {
+        let hang1 = parseFloat(document.getElementById("o1").value);
+        let hang2 = parseInt(document.getElementById("o2").value);
+        let d = (hang1 * hang2);
+        document.getElementById("display").innerText = d.toFixed(1);
+    }
+    function ch() {
+        let hang1 = parseFloat(document.getElementById("o1").value);
+        let hang2 = parseFloat(document.getElementById("o2").value);
+        let d = (hang1 / hang2);
+        document.getElementById("display").innerText = d.toFixed(1);
+    }
+</script>
+</body>
+</html>
