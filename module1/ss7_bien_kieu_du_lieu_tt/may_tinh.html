@@ -27,7 +27,7 @@
     }
     function n() {
         let hang1 = parseFloat(document.getElementById("o1").value);
-        let hang2 = parseInt(document.getElementById("o2").value);
+        let hang2 = parseFloat(document.getElementById("o2").value);
         let d = (hang1 * hang2);
         document.getElementById("display").innerText = d.toFixed(1);
     }
