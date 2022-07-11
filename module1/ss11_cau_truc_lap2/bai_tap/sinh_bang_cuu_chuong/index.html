@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Bảng cửu chương</h1>
+<script>
+    let bangcuuchuong, i, j;
+    bangcuuchuong = "<table border='1' cellspacing='1' cellpadding='10'>";
+    debugger;
+    for (i = 1; i <= 10; i++) {
+        bangcuuchuong = bangcuuchuong + "<tr>";
+        for (j = 1; j <= 10; j++) {
+            bangcuuchuong = bangcuuchuong + "<td>" + j + "*" + i + "=" + i * j + "</td>";
+        }
+        bangcuuchuong = bangcuuchuong + "</tr>";
+    }
+    bangcuuchuong = bangcuuchuong + "</table>";
+    document.write(bangcuuchuong);
+</script>
+</body>
+</html>

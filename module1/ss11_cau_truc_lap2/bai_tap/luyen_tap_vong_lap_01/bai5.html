@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let dem = 0;
+    let sum = 0
+    let fibonaci = '20 số fibonacci đầu tiên là:<br>';
+    let s0, s1 = 0, s2 = 1;
+    while (dem < 20) {
+        s0 = s1 + s2;
+        fibonaci += s1 + '<br>';
+        sum += s1;
+        s1 = s2;
+        s2 = s0;
+        dem++;
+    }
+    document.write("Tổng là: " + sum);
+
+</script>
+</body>
+</html>
