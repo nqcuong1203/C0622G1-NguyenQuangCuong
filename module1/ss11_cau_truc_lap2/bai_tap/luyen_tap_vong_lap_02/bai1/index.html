@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let amount = +prompt('Nhập vào số lượng của dãy fibonacci: ');
+    let fibonacci;
+    let number1 = 0;
+    let number2 = 1;
+
+    for(let i = 1; i <= amount; i ++) {
+        fibonacci = number1 + number2;
+        number1 = number2;
+        number2 = fibonacci;
+        document.write(fibonacci + '<br>');
+    }
+</script>
+</body>
+</html>
